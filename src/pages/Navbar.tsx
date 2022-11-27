@@ -1,6 +1,7 @@
 import { Navbar as NavbarBs, Container , Nav, Button} from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import shopcat from "../assets/shoping2.svg"
+
 export const Navbar = () => {
     return <NavbarBs sticky="top" className="bg-white mb-3 shadow-sm">
         <Container >
